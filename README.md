@@ -10,6 +10,7 @@ Todo API is a backend application developed in Spring Boot that allows you to ma
 - Spring Data JPA
 - MySQL (or another relational database)
 - Lombok
+- Spring Doc
 
 ## Installation and Setup
 
@@ -18,14 +19,14 @@ Todo API is a backend application developed in Spring Boot that allows you to ma
 - JDK 17 or higher
 - Maven
 - MySQL (or another database)
-- Postman (optional, for testing the API)
+- Postman,Thunder Client (optional, for testing the API)
 
 ### Steps
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/todo-api.git
-   cd todo-api
+   git clone https://github.com/SethLawson07/todoapi.git
+   cd todoapi
    ```
 
 2. Set up the MySQL database (or another database). Create a schema for the application and configure the connection settings in `src/main/resources/application.properties`:
